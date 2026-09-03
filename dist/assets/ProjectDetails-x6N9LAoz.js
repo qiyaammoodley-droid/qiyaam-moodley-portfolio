@@ -1,0 +1,11 @@
+import{c as r,u as x,p as n,j as e,b as a,G as i}from"./index-BgkmHvyL.js";/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const c=r("ArrowLeft",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]]);/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const o=r("ExternalLink",[["path",{d:"M15 3h6v6",key:"1q9fwt"}],["path",{d:"M10 14 21 3",key:"gplh6r"}],["path",{d:"M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6",key:"a6xqqp"}]]);function d(){const{slug:l}=x(),t=n.find(s=>s.slug===l);return t?e.jsxs("main",{className:"mx-auto max-w-5xl px-5 pb-32 pt-36 lg:px-8",children:[e.jsxs(a,{to:"/#projects",className:"flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/40 hover:text-white",children:[e.jsx(c,{size:15})," Back to work"]}),e.jsxs("p",{className:"mt-14 font-mono text-xs text-ember",children:[t.eyebrow," / ",t.year]}),e.jsx("h1",{className:"mt-5 font-display text-5xl font-bold tracking-tight sm:text-7xl",children:t.title}),e.jsx("p",{className:"mt-7 max-w-3xl text-lg leading-8 text-white/55",children:t.longDescription}),e.jsx("div",{className:"mt-8 flex flex-wrap gap-2",children:t.stack.map(s=>e.jsx("span",{className:"rounded-full border border-white/10 px-3 py-2 text-xs text-white/55",children:s},s))}),e.jsxs("div",{className:"mt-10 flex gap-6",children:[t.demo&&e.jsxs("a",{className:"flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-aqua",href:t.demo,target:"_blank",rel:"noreferrer",children:["Live project ",e.jsx(o,{size:14})]}),e.jsxs("a",{className:"flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white",href:t.github,target:"_blank",rel:"noreferrer",children:[e.jsx(i,{size:14})," View code"]})]})]}):e.jsxs("main",{className:"mx-auto max-w-7xl px-5 py-40",children:[e.jsx("p",{className:"font-mono text-ember",children:"404 / PROJECT"}),e.jsx("h1",{className:"mt-4 font-display text-5xl font-bold",children:"Not found."}),e.jsx(a,{className:"mt-6 inline-block text-ember",to:"/",children:"Back home"})]})}export{d as default};
