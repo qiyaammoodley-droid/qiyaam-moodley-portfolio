@@ -64,7 +64,131 @@ export const skills = {
 export const projects: Project[] = [
 
   /* ---------------------------------------------------------
-     01 — PROJECT MANAGEMENT DASHBOARD
+     01 — RIVERSIDE COMMUNITY HUB
+  --------------------------------------------------------- */
+
+  {
+    slug: "riverside-community-hub",
+
+    title: "Riverside Community Hub",
+
+    category: "Full-Stack",
+
+    description:
+      "A full-stack community platform for managing memberships, facility bookings and donations through a central web application.",
+
+    tech: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "Supabase",
+    ],
+
+    github:
+      "https://github.com/qiyaammoodley-droid/riverside-community-hub",
+
+    live:
+      "https://riverside-community-hub.netlify.app/",
+
+    featured: true,
+
+    year: "2026",
+
+    status: "Completed",
+
+    longDescription:
+      "A full-stack TypeScript platform developed for a fictional nonprofit community centre. The application brings together membership management, facility bookings, donations, authentication, role-based access, Supabase database functionality, Row-Level Security, reporting and booking conflict protection.",
+
+    accent: "violet",
+  },
+
+
+  /* ---------------------------------------------------------
+     02 — MELSOFT OTP SECURITY SYSTEM
+  --------------------------------------------------------- */
+
+  {
+    slug: "melsoft-otp-security-system",
+
+    title: "Melsoft OTP Security System",
+
+    category: "Backend",
+
+    description:
+      "An OTP authentication system built with Node.js and Express, featuring OTP expiry, resend limits, rate limiting and secure verification rules.",
+
+    tech: [
+      "Node.js",
+      "Express.js",
+      "JavaScript",
+      "Nodemailer",
+      "Jest",
+    ],
+
+    github:
+      "https://github.com/qiyaammoodley-droid/melsoft-otp-security-system",
+
+    live:
+      "https://melsoft-otp-security-system.netlify.app/",
+
+    featured: true,
+
+    year: "2026",
+
+    status: "Completed",
+
+    longDescription:
+      "A backend-focused security project implementing a complete OTP verification flow. The system generates six-digit OTPs, handles expiry, limits requests and resends, prevents OTP reuse and provides API endpoints for sending, resending and verifying OTPs.",
+
+    accent: "orange",
+  },
+
+
+  /* ---------------------------------------------------------
+     03 — PULSE WORLD SNAPSHOT
+  --------------------------------------------------------- */
+
+  {
+    slug: "pulse-world-snapshot",
+
+    title: "Pulse World Snapshot",
+
+    category: "Full-Stack",
+
+    description:
+      "A live world snapshot application that combines earthquake and weather data from external APIs and stores the information in Supabase.",
+
+    tech: [
+      "JavaScript",
+      "Supabase",
+      "REST APIs",
+      "USGS API",
+      "Open-Meteo API",
+    ],
+
+    github:
+      "https://github.com/qiyaammoodley-droid/pulse-world-snapshot",
+
+    live:
+      "https://pulse-world-snapshot.netlify.app/",
+
+    featured: true,
+
+    year: "2026",
+
+    status: "Completed",
+
+    longDescription:
+      "A data-driven web application that retrieves live earthquake information from the USGS Earthquake API and weather information from the Open-Meteo API before storing the data in Supabase. The project also includes database design and filtering for earthquakes with a magnitude of 4.0 or higher.",
+
+    accent: "aqua",
+  },
+
+
+  /* ---------------------------------------------------------
+     04 — PROJECT MANAGEMENT DASHBOARD
   --------------------------------------------------------- */
 
   {
@@ -104,7 +228,7 @@ export const projects: Project[] = [
 
 
   /* ---------------------------------------------------------
-     02 — A4AC REDESIGN
+     05 — A4AC REDESIGN
   --------------------------------------------------------- */
 
   {
@@ -143,7 +267,7 @@ export const projects: Project[] = [
 
 
   /* ---------------------------------------------------------
-     03 — LUXURY BOAT DEALERSHIP
+     06 — LUXURY BOAT DEALERSHIP
   --------------------------------------------------------- */
 
   {
@@ -181,7 +305,7 @@ export const projects: Project[] = [
 
 
   /* ---------------------------------------------------------
-     04 — CAPSTONE PROJECT
+     07 — CAPSTONE PROJECT
   --------------------------------------------------------- */
 
   {
@@ -221,7 +345,7 @@ export const projects: Project[] = [
 
 
   /* ---------------------------------------------------------
-     05 — CURRENCY CONVERTER
+     08 — CURRENCY CONVERTER
   --------------------------------------------------------- */
 
   {
@@ -258,7 +382,7 @@ export const projects: Project[] = [
 
 
   /* ---------------------------------------------------------
-     06 — TODO LIST APP
+     09 — TODO LIST APP
   --------------------------------------------------------- */
 
   {
@@ -296,7 +420,7 @@ export const projects: Project[] = [
 
 
   /* ---------------------------------------------------------
-     07 — MINI SPREADSHEET
+     10 — MINI SPREADSHEET
   --------------------------------------------------------- */
 
   {
@@ -335,7 +459,7 @@ export const projects: Project[] = [
 
 
   /* ---------------------------------------------------------
-     08 — HABIT TRACKER
+     11 — HABIT TRACKER
   --------------------------------------------------------- */
 
   {
